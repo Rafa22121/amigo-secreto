@@ -15,3 +15,8 @@ function sortearAmigo() {
     }
     return sorteio;
 }
+function listarAmigo() {
+    for(const amigo of amigos) {
+        console.log(amigo)
+    }
+}
